@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>M Essack &amp; Associates | Attorneys in Westville Durban | Property Law, Family Law, Civil Litigation</title>
+    <meta name="description" content="M Essack &amp; Associates is a Westville, Durban law firm offering property law, rental law, estates &amp; wills, family law, and civil litigation services. Contact us for reliable, professional legal solutions." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://messacklaw.co.za/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://messacklaw.co.za/" />
+    <meta property="og:title" content="M Essack &amp; Associates | Attorneys in Westville Durban" />
+    <meta property="og:description" content="Providing reliable, confidential, and results-driven legal solutions. Property law, family law, estates, rental law, and civil litigation in Durban." />
+    <meta property="og:image" content="https://messacklaw.co.za/assets/images/hero.png" />
+    <meta property="og:locale" content="en_ZA" />
+    <meta property="og:site_name" content="M Essack &amp; Associates" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png" />
+
+    <!-- Preconnect to external origins -->
+    <link rel="preconnect" href="https://cdn.tailwindcss.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#d4af35",
+                        "background-light": "#f8f7f6",
+                        "background-dark": "#201d12",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+
+    <!-- Structured Data: LocalBusiness -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LegalService",
+        "name": "M Essack & Associates",
+        "description": "A dedicated law firm committed to delivering efficient, ethical, and professional legal services to individuals and businesses in Westville, Durban.",
+        "url": "https://messacklaw.co.za",
+        "telephone": "+27833051957",
+        "email": "messacklaw@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Unit 2, 17 Mottramdale Road",
+            "addressLocality": "Westville",
+            "addressRegion": "KwaZulu-Natal",
+            "addressCountry": "ZA"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "-29.833",
+            "longitude": "30.928"
+        },
+        "image": "https://messacklaw.co.za/assets/images/logo.png",
+        "priceRange": "$$",
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "08:00",
+            "closes": "17:00"
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "Durban"
+        },
+        "knowsAbout": ["Property Law", "Rental Law", "Estates & Wills", "Family Law", "Civil Litigation"]
+    }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased">
+
+<!-- Navigation -->
+<header class="sticky top-0 z-50 w-full border-b border-primary/20 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex h-20 items-center justify-between">
+            <div class="flex items-center gap-3">
+                <img alt="M Essack &amp; Associates Logo" class="h-10 w-auto" src="assets/images/logo.png" />
+                <span class="text-xl font-bold tracking-tight text-slate-900 dark:text-slate-100 uppercase">
+                    M Essack <span class="text-primary">&amp;</span> Associates
+                </span>
+            </div>
+            <nav class="hidden md:flex items-center gap-10">
+                <a class="text-sm font-semibold hover:text-primary transition-colors uppercase tracking-wider" href="#">Home</a>
+                <a class="text-sm font-semibold hover:text-primary transition-colors uppercase tracking-wider" href="#about">About</a>
+                <a class="text-sm font-semibold hover:text-primary transition-colors uppercase tracking-wider" href="#services">Services</a>
+                <a class="text-sm font-semibold hover:text-primary transition-colors uppercase tracking-wider" href="#contact">Contact</a>
+            </nav>
+            <div class="flex items-center gap-4">
+                <a class="hidden sm:flex bg-primary text-background-dark px-6 py-2.5 rounded-lg font-bold text-sm uppercase tracking-wider hover:bg-primary/90 transition-all items-center gap-2" href="https://wa.me/27833051957">
+                    WhatsApp Us
+                </a>
+                <!-- Mobile menu button -->
+                <button id="mobile-menu-btn" class="md:hidden p-2 text-slate-900 dark:text-slate-100 hover:text-primary transition-colors" aria-label="Open menu" aria-expanded="false">
+                    <span class="material-symbols-outlined text-3xl">menu</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile slide-out menu -->
+    <div id="mobile-menu-overlay" class="fixed inset-0 bg-black/50 z-40 hidden" aria-hidden="true"></div>
+    <nav id="mobile-menu" class="fixed top-0 right-0 h-full w-72 bg-background-light dark:bg-background-dark border-l border-primary/20 z-50 transform translate-x-full transition-transform duration-300 ease-in-out" aria-label="Mobile navigation">
+        <div class="flex items-center justify-between p-6 border-b border-primary/20">
+            <span class="text-lg font-bold uppercase tracking-tight">Menu</span>
+            <button id="mobile-menu-close" class="p-2 hover:text-primary transition-colors" aria-label="Close menu">
+                <span class="material-symbols-outlined text-2xl">close</span>
+            </button>
+        </div>
+        <div class="flex flex-col p-6 gap-6">
+            <a class="text-base font-semibold hover:text-primary transition-colors uppercase tracking-wider" href="#">Home</a>
+            <a class="text-base font-semibold hover:text-primary transition-colors uppercase tracking-wider" href="#about">About</a>
+            <a class="text-base font-semibold hover:text-primary transition-colors uppercase tracking-wider" href="#services">Services</a>
+            <a class="text-base font-semibold hover:text-primary transition-colors uppercase tracking-wider" href="#contact">Contact</a>
+            <a class="bg-primary text-background-dark px-6 py-3 rounded-lg font-bold text-sm uppercase tracking-wider hover:bg-primary/90 transition-all text-center mt-4" href="https://wa.me/27833051957">
+                WhatsApp Us
+            </a>
+        </div>
+    </nav>
+</header>
+
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-[85vh] flex items-center overflow-hidden" aria-label="Hero">
+    <div class="absolute inset-0 z-0">
+        <div class="absolute inset-0 bg-gradient-to-r from-background-dark via-background-dark/80 to-transparent z-10"></div>
+        <div class="absolute inset-0 bg-background-dark/40 z-10"></div>
+        <div class="h-full w-full bg-cover bg-center" style="background-image: url('assets/images/hero.png')"></div>
+    </div>
+    <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        <div class="max-w-3xl">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded border border-primary/30 bg-primary/10 text-primary mb-6">
+                <span class="text-xs font-bold uppercase tracking-[0.2em]">M Essack &amp; Associates</span>
+            </div>
+            <h1 class="text-5xl md:text-7xl font-black text-white leading-none tracking-tighter mb-6">
+                JUSTICE WITH <br />
+                <span class="text-primary italic">INTEGRITY</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-300 max-w-xl mb-10 leading-relaxed font-light">
+                Providing reliable, confidential, and results-driven legal solutions.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a class="bg-primary text-background-dark px-8 py-4 rounded-lg text-center font-bold text-base uppercase tracking-widest hover:shadow-[0_0_20px_rgba(212,175,53,0.4)] transition-all" href="https://wa.me/27833051957">
+                    WhatsApp Us
+                </a>
+                <a class="border border-white/20 text-white hover:bg-white/10 px-8 py-4 rounded-lg text-center font-bold text-base uppercase tracking-widest transition-all backdrop-blur-sm" href="#services">
+                    Our Practice Areas
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="py-24 bg-background-light dark:bg-background-dark relative overflow-hidden" id="about">
+    <div class="absolute top-0 right-0 w-1/3 h-full bg-primary/5 -skew-x-12 transform translate-x-1/2"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+            <div class="relative">
+                <div class="aspect-[4/5] rounded-xl overflow-hidden border border-primary/20 shadow-2xl">
+                    <img alt="Legal desk with a gavel representing M Essack &amp; Associates professional services" class="h-full w-full object-cover" src="assets/images/about.png" loading="lazy" width="600" height="750" />
+                </div>
+            </div>
+            <div class="space-y-8">
+                <div>
+                    <h2 class="text-primary font-bold uppercase tracking-widest text-sm mb-4">A Little About Us</h2>
+                    <h3 class="text-4xl md:text-5xl font-black dark:text-white leading-tight">Establishing Trust</h3>
+                </div>
+                <p class="text-lg text-slate-600 dark:text-slate-400 leading-relaxed italic border-l-4 border-primary pl-6">
+                    "M Essack &amp; Associates is a dedicated law firm committed to delivering efficient, ethical, and professional legal services to individuals and businesses."
+                </p>
+                <p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+                    We prioritize integrity, client satisfaction, and practical legal solutions.
+                </p>
+                <div class="pt-4">
+                    <a class="inline-flex items-center gap-2 text-primary font-bold uppercase tracking-widest hover:gap-4 transition-all" href="https://wa.me/27833051957">
+                        Contact Us Today
+                        <span class="material-symbols-outlined">arrow_forward</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Grid -->
+<section class="py-24 bg-slate-100 dark:bg-[#1a1810]" id="services">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <h2 class="text-primary font-bold uppercase tracking-widest text-sm mb-4">Our Services</h2>
+            <h3 class="text-4xl font-black dark:text-white mb-6">Legal Solutions</h3>
+            <div class="h-1 w-20 bg-primary mx-auto"></div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Property Law -->
+            <div class="group bg-background-light dark:bg-background-dark p-8 rounded-xl border border-primary/10 hover:border-primary/40 transition-all duration-300">
+                <div class="text-primary mb-6">
+                    <span class="material-symbols-outlined text-5xl">home_work</span>
+                </div>
+                <h4 class="text-xl font-bold mb-4 dark:text-white group-hover:text-primary transition-colors">Property Law</h4>
+                <ul class="text-slate-600 dark:text-slate-400 text-sm space-y-2 mb-6">
+                    <li class="flex items-start gap-2"><span class="text-primary">&#8226;</span> Property transfers</li>
+                    <li class="flex items-start gap-2"><span class="text-primary">&#8226;</span> Deeds registration</li>
+                    <li class="flex items-start gap-2"><span class="text-primary">&#8226;</span> Property agreements</li>
+                </ul>
+            </div>
+            <!-- Rental Law -->
+            <div class="group bg-background-light dark:bg-background-dark p-8 rounded-xl border border-primary/10 hover:border-primary/40 transition-all duration-300">
+                <div class="text-primary mb-6">
+                    <span class="material-symbols-outlined text-5xl">apartment</span>
+                </div>
+                <h4 class="text-xl font-bold mb-4 dark:text-white group-hover:text-primary transition-colors">Rental Law</h4>
+                <ul class="text-slate-600 dark:text-slate-400 text-sm space-y-2 mb-6">
+                    <li class="flex items-start gap-2"><span class="text-primary">&#8226;</span> Evictions</li>
+                    <li class="flex items-start gap-2"><span class="text-primary">&#8226;</span> Lease enforcement</li>
+                    <li class="flex items-start gap-2"><span class="text-primary">&#8226;</span> Rental disputes</li>
+                </ul>
+            </div>
+            <!-- Estates & Wills -->
+            <div class="group bg-background-light dark:bg-background-dark p-8 rounded-xl border border-primary/10 hover:border-primary/40 transition-all duration-300">
+                <div class="text-primary mb-6">
+                    <span class="material-symbols-outlined text-5xl">history_edu</span>
+                </div>
+                <h4 class="text-xl font-bold mb-4 dark:text-white group-hover:text-primary transition-colors">Estates &amp; Wills</h4>
+                <ul class="text-slate-600 dark:text-slate-400 text-sm space-y-2 mb-6">
+                    <li class="flex items-start gap-2"><span class="text-primary">&#8226;</span> Estate administration</li>
+                    <li class="flex items-start gap-2"><span class="text-primary">&#8226;</span> Wills drafting</li>
+                    <li class="flex items-start gap-2"><span class="text-primary">&#8226;</span> Estate planning</li>
+                </ul>
+            </div>
+            <!-- Family Law -->
+            <div class="group bg-background-light dark:bg-background-dark p-8 rounded-xl border border-primary/10 hover:border-primary/40 transition-all duration-300">
+                <div class="text-primary mb-6">
+                    <span class="material-symbols-outlined text-5xl">family_restroom</span>
+                </div>
+                <h4 class="text-xl font-bold mb-4 dark:text-white group-hover:text-primary transition-colors">Family Law</h4>
+                <ul class="text-slate-600 dark:text-slate-400 text-sm space-y-2 mb-6">
+                    <li class="flex items-start gap-2"><span class="text-primary">&#8226;</span> Divorce</li>
+                    <li class="flex items-start gap-2"><span class="text-primary">&#8226;</span> Maintenance</li>
+                    <li class="flex items-start gap-2"><span class="text-primary">&#8226;</span> Child custody</li>
+                    <li class="flex items-start gap-2"><span class="text-primary">&#8226;</span> Protection orders</li>
+                    <li class="flex items-start gap-2"><span class="text-primary">&#8226;</span> Antenuptial contracts</li>
+                </ul>
+            </div>
+            <!-- Civil Litigation -->
+            <div class="group bg-background-light dark:bg-background-dark p-8 rounded-xl border border-primary/10 hover:border-primary/40 transition-all duration-300">
+                <div class="text-primary mb-6">
+                    <span class="material-symbols-outlined text-5xl">gavel</span>
+                </div>
+                <h4 class="text-xl font-bold mb-4 dark:text-white group-hover:text-primary transition-colors">Civil Litigation</h4>
+                <ul class="text-slate-600 dark:text-slate-400 text-sm space-y-2 mb-6">
+                    <li class="flex items-start gap-2"><span class="text-primary">&#8226;</span> Court litigation</li>
+                    <li class="flex items-start gap-2"><span class="text-primary">&#8226;</span> Debt recovery</li>
+                    <li class="flex items-start gap-2"><span class="text-primary">&#8226;</span> Contract disputes</li>
+                    <li class="flex items-start gap-2"><span class="text-primary">&#8226;</span> Legal applications</li>
+                </ul>
+            </div>
+            <!-- WhatsApp CTA Card -->
+            <div class="bg-primary p-8 rounded-xl flex flex-col justify-center items-center text-center">
+                <h4 class="text-background-dark text-2xl font-black mb-4">Need Legal Advice?</h4>
+                <p class="text-background-dark/80 text-sm font-medium mb-8">
+                    Our experts are ready to assist you with your legal needs.
+                </p>
+                <a class="w-full bg-background-dark text-primary py-3 rounded-lg font-bold text-sm uppercase tracking-widest hover:opacity-90 transition-all text-center" href="https://wa.me/27833051957">
+                    WhatsApp Us
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Map & Contact Section -->
+<section class="py-24" id="contact">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-background-light dark:bg-background-dark rounded-2xl overflow-hidden border border-primary/10 flex flex-col lg:flex-row shadow-2xl">
+            <div class="p-8 sm:p-12 lg:w-1/2">
+                <h2 class="text-primary font-bold uppercase tracking-widest text-sm mb-4">Contact Us Today</h2>
+                <h3 class="text-4xl font-black dark:text-white mb-8">Get In Touch</h3>
+                <div class="space-y-6 mb-10">
+                    <div class="flex gap-4">
+                        <span class="material-symbols-outlined text-primary">location_on</span>
+                        <div>
+                            <p class="font-bold dark:text-white uppercase tracking-tighter">Office Address</p>
+                            <p class="text-slate-600 dark:text-slate-400">Unit 2, 17 Mottramdale Road, Westville</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <span class="material-symbols-outlined text-primary">call</span>
+                        <div>
+                            <p class="font-bold dark:text-white uppercase tracking-tighter">Phone / WhatsApp</p>
+                            <p class="text-slate-600 dark:text-slate-400">+27 83 305 1957</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <span class="material-symbols-outlined text-primary">mail</span>
+                        <div>
+                            <p class="font-bold dark:text-white uppercase tracking-tighter">Email</p>
+                            <p class="text-slate-600 dark:text-slate-400">messacklaw@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <form action="https://formspree.io/messacklaw@gmail.com" method="POST" class="space-y-4 mb-8" aria-label="Contact form">
+                    <div>
+                        <label for="contact-name" class="sr-only">Full Name</label>
+                        <input type="text" id="contact-name" name="name" required placeholder="Full Name" autocomplete="name" class="w-full bg-slate-100 dark:bg-black/30 border border-primary/10 rounded-lg px-4 py-3 text-sm placeholder:text-slate-400 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors" />
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label for="contact-email" class="sr-only">Email Address</label>
+                            <input type="email" id="contact-email" name="email" required placeholder="Email Address" autocomplete="email" class="w-full bg-slate-100 dark:bg-black/30 border border-primary/10 rounded-lg px-4 py-3 text-sm placeholder:text-slate-400 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors" />
+                        </div>
+                        <div>
+                            <label for="contact-phone" class="sr-only">Phone Number</label>
+                            <input type="tel" id="contact-phone" name="phone" placeholder="Phone Number" autocomplete="tel" class="w-full bg-slate-100 dark:bg-black/30 border border-primary/10 rounded-lg px-4 py-3 text-sm placeholder:text-slate-400 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors" />
+                        </div>
+                    </div>
+                    <div>
+                        <label for="contact-message" class="sr-only">Message</label>
+                        <textarea id="contact-message" name="message" required rows="4" placeholder="How can we help you?" class="w-full bg-slate-100 dark:bg-black/30 border border-primary/10 rounded-lg px-4 py-3 text-sm placeholder:text-slate-400 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors resize-none"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-primary text-background-dark py-3 rounded-lg font-bold text-sm uppercase tracking-widest hover:bg-primary/90 transition-all">
+                        Send Message
+                    </button>
+                </form>
+
+                <a class="inline-flex justify-center items-center gap-3 bg-background-dark dark:bg-white/10 text-primary font-bold py-4 px-8 rounded-lg uppercase tracking-widest text-sm w-full hover:opacity-90 transition-all border border-primary/20" href="https://wa.me/27833051957">
+                    WhatsApp Us Now
+                </a>
+            </div>
+            <div class="lg:w-1/2 min-h-[400px] relative">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3460.5!2d30.928!3d-29.833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7aa1b6d0a0001%3A0x0!2s17+Mottramdale+Road%2C+Westville%2C+Durban!5e0!3m2!1sen!2sza!4v1700000000000!5m2!1sen!2sza"
+                    class="absolute inset-0 w-full h-full border-0 grayscale contrast-125 opacity-80"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="M Essack &amp; Associates office location on Google Maps">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer class="bg-slate-100 dark:bg-black py-16 border-t border-primary/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-8 mb-12">
+            <div class="flex items-center gap-3">
+                <img alt="M Essack &amp; Associates Logo" class="h-8 w-auto" src="assets/images/logo.png" loading="lazy" width="32" height="32" />
+                <span class="text-lg font-bold tracking-tight text-slate-900 dark:text-white uppercase">
+                    M Essack <span class="text-primary">&amp;</span> Associates
+                </span>
+            </div>
+            <div class="flex gap-8 text-sm font-semibold uppercase tracking-widest">
+                <a class="hover:text-primary" href="#">Home</a>
+                <a class="hover:text-primary" href="#about">About</a>
+                <a class="hover:text-primary" href="#services">Services</a>
+                <a class="hover:text-primary" href="#contact">Contact</a>
+            </div>
+            <div class="flex gap-4">
+                <a class="p-2 border border-slate-300 dark:border-slate-800 rounded hover:border-primary text-slate-500 hover:text-primary transition-colors" href="https://wa.me/27833051957" aria-label="Contact us on WhatsApp">
+                    <span class="material-symbols-outlined text-xl">chat</span>
+                </a>
+            </div>
+        </div>
+        <div class="pt-8 border-t border-slate-200 dark:border-slate-900 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500 uppercase tracking-widest font-medium">
+            <p>&copy; 2025 M Essack &amp; Associates. Justice with Integrity.</p>
+            <div class="flex gap-6">
+                <a class="hover:text-primary" href="#">Privacy Policy</a>
+                <a class="hover:text-primary" href="#">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Mobile Menu Script -->
+<script>
+    (function () {
+        const btn = document.getElementById('mobile-menu-btn');
+        const closeBtn = document.getElementById('mobile-menu-close');
+        const menu = document.getElementById('mobile-menu');
+        const overlay = document.getElementById('mobile-menu-overlay');
+        const menuLinks = menu.querySelectorAll('a');
+
+        function openMenu() {
+            menu.classList.remove('translate-x-full');
+            menu.classList.add('translate-x-0');
+            overlay.classList.remove('hidden');
+            btn.setAttribute('aria-expanded', 'true');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMenu() {
+            menu.classList.remove('translate-x-0');
+            menu.classList.add('translate-x-full');
+            overlay.classList.add('hidden');
+            btn.setAttribute('aria-expanded', 'false');
+            document.body.style.overflow = '';
+        }
+
+        btn.addEventListener('click', openMenu);
+        closeBtn.addEventListener('click', closeMenu);
+        overlay.addEventListener('click', closeMenu);
+        menuLinks.forEach(function (link) {
+            link.addEventListener('click', closeMenu);
+        });
+    })();
+</script>
+
+</body>
+</html>
